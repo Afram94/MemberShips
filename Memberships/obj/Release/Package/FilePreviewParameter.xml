@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="membershipsapp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\46735\\Downloads\\Memberships\+-\+Video\+Code\+-\+Finished\ \(1\)\\Memberships\ -\ Video\ Code\ -\ Finished\\Memberships\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\46735\\Downloads\\Memberships\+-\+Video\+Code\+-\+Finished\ \(1\)\\Memberships\ -\ Video\ Code\ -\ Finished\\Memberships\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Server=tcp:membershipsdbserver.database.windows.net,1433;Initial Catalog=MembershipsDatabase;Persist Security Info=False;User ID=afram;Password=john95*john789;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\46735\\Downloads\\Memberships\+-\+Video\+Code\+-\+Finished\ \(1\)\\Memberships\ -\ Video\ Code\ -\ Finished\\Memberships\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
